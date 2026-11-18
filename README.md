@@ -25,7 +25,9 @@ M01: Gaussian Q-function numerical analysis complete.
 
 M02: BPSK/AWGN communication simulation implemented and validated with 159 automated tests.
 
-M03: Gray-coded QPSK and 16-QAM, complex AWGN, theoretical BER, and Monte Carlo comparison implemented and validated locally with 299 automated tests. GitHub integration pending.
+M03: Gray-coded QPSK and 16-QAM BER simulation complete and merged into GitHub main; 299 tests passed.
+
+M04: Statistical convergence, simulator throughput, and rare-error reliability studies validated locally. GitHub integration pending.
 
 ## Python
 
@@ -76,3 +78,16 @@ configurations and saves a CSV dataset and semilogarithmic BER plot.
 See [M03 methodology and results](docs/M03_QPSK_16QAM_BER.md).
 
 ![QPSK and 16-QAM BER comparison](experiments/results/m03/modulation_ber_comparison.png)
+
+## M04 - Statistical Reliability and Performance
+
+M04 investigates Monte Carlo convergence, runtime throughput for
+BPSK/QPSK/16-QAM, and the interpretation of rare or zero observed errors.
+
+See [M04 methodology and results](docs/M04_STATISTICAL_BENCHMARKING.md).
+
+![Monte Carlo BER convergence](experiments/results/m04/bpsk_convergence.png)
+
+![Simulator throughput](experiments/results/m04/modulation_throughput.png)
+
+![Rare-error reliability](experiments/results/m04/rare_error_reliability.png)

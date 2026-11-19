@@ -91,3 +91,26 @@ See [M04 methodology and results](docs/M04_STATISTICAL_BENCHMARKING.md).
 ![Simulator throughput](experiments/results/m04/modulation_throughput.png)
 
 ![Rare-error reliability](experiments/results/m04/rare_error_reliability.png)
+
+## M05 - Interactive Communication Simulator
+
+CommuLab includes a four-page Streamlit application:
+
+- BER Explorer
+- Constellation Explorer
+- Numerical Q-function Lab
+- Experiment Analytics for M01-M04
+
+Install the dashboard and development dependencies:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -e ".[dev,dashboard]"
+```
+
+Launch the dashboard:
+
+```powershell
+.\.venv\Scripts\python.exe -m streamlit run dashboard/app.py
+```
+
+See [M05 dashboard documentation](docs/M05_INTERACTIVE_DASHBOARD.md).

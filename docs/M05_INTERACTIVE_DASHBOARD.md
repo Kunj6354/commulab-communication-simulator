@@ -5,7 +5,7 @@
 Implemented and validated locally on
 `feature/m05-interactive-dashboard`.
 
-GitHub integration pending.
+Integrated into main via GitHub PR #5.
 
 ## Objective
 
@@ -121,7 +121,7 @@ should not be interpreted as physical communication data rates.
 
 ## Verification
 
-Local M05-D acceptance:
+M05 local and fresh-clone acceptance:
 
 - 353 automated tests passed
 - Ruff passed

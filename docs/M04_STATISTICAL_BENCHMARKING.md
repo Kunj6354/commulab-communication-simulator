@@ -2,7 +2,7 @@
 
 ## Status
 
-Experiments validated locally. GitHub integration pending.
+Experiments validated locally and integrated into main.
 
 ## Objective
 

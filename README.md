@@ -27,7 +27,7 @@ M02: BPSK/AWGN communication simulation implemented and validated with 159 autom
 
 M03: Gray-coded QPSK and 16-QAM BER simulation complete and merged into GitHub main; 299 tests passed.
 
-M04: Statistical convergence, simulator throughput, and rare-error reliability studies validated locally. GitHub integration pending.
+M04: Statistical convergence, simulator throughput, and rare-error reliability studies validated and merged into main.
 
 ## Python
 
